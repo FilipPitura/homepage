@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <header class="header">Pierwsza strona Filipa Pitury</header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li>
+                <a class="navigation__link" href="#Kilka-słów-o-mnie">Kilka słów o mnie</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#Dlaczego-postanowiłem-zostać-programistą?">Dlaczego postanowiłem
+                    zostać
+                    programistą?</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#Średnia-wartość-odżywcza-w-moich-ulubionych-chipsach">Średnia wartość
+                    odżywcza w
+                    moich ulubionych</a>
+            </li>
+        </ul>
+    </nav>
+    <button class="js-button button"><span class="js-themeName">Włącz</span> ciemne tło</button>
+    <main>
+        <article>
+            <section class="section">
+                <h1 class="section__subHeader section__subHeader--special" id=Kilka-słów-o-mnie>Kilka słów o mnie</h1>
+                <img width="250" src="https://i.postimg.cc/bNVPxFQh/WIN-20221127-22-02-11-Pro-2.jpg" alt="moje zdjęcie">
+                <p class="section__paragragh"> Witam, mam na imię <b>Filip</b> i mam 16 lat. Chodzę do 3 klasy liceum
+                    <i>i oby jak najszybciej się to skończyło.</i> Pochodzę z małej wsi w województwie świętokrzyskim,
+                    której nie zna.
+                </p>
+            </section>
+            <section class="section">
+                <h2 id=Dlaczego-postanowiłem-zostać-programistą? class="section__subHeader">Dlaczego postanowiłem zostać
+                    programistą?</h2>
+                <p class="section__paragraph"><strong>Co do tego jest kilka powodów.</strong> Pierwszym z nich jest
+                    możliwość pracy z <b> dowolnego
+                        miejsca na ziemi</b>, co może ułatwić życie. po drugie zarobki też nie są małe <i> a częściowo
+                        kierowałem się tym przy podejmowaniu decyzji.</i> <br> Chciałem również <strong> móc rozwijać
+                        się i jak
+                        najwcześniej zdobywać.</strong></p>
+                <p class="section__paragraph"> <em>Najważniejszym powodem</em> jest <b>chęć zmiany czegoś.</b> Codzienne
+                    życie zaczęło mnie
+                    nudzić.
+                    Mam
+                    nadzieję, że spróbowanie czegoś nowego wyjdzie mi na dobre :)
+                </p>
+            </section>
+        </article>
+
+        <section>
+            <table class="table">
+                <caption id=Średnia-wartość-odżywcza-w-moich-ulubionych-chipsach class="table__caption">Średnia wartość
+                    odżywcza w moich ulubionych chipsach</caption>
+                <tr>
+                    <th class="table__tableCell table__tableHeader" scope="col">Nazwa wartości</th>
+                    <th class="table__table__tableCell table__tableHeader" scope="col">w 100g</th>
+                    <th class="table__table__tableCell table__tableHeader" scope="col">Zawartość w %</th>
+                </tr>
+                <tr>
+                    <th class="table__tableCell table__tableHeader" scope="row">Wartość energetyczna</th>
+                    <td class="table__tableCell">495 kcal</td>
+                    <td class="table__tableCell">7%</td>
+                </tr>
+                <tr>
+                    <th class="table__tableCell table__tableHeader" scope="row">Tłuszcz</th>
+                    <td class="table__tableCell">25g</td>
+                    <td class="table__tableCell">11%</td>
+                </tr>
+                <tr>
+                    <th class="table__table__tableCell table__tableHeader" scope="row">Węglowodany</th>
+                    <td class="table__tableCell">2,7g</td>
+                    <td class="table__tableCell">7%</td>
+                </tr>
+                <th class="table__tableCell table__tableHeader" scope="row">Sól</th>
+                <td class="table__tableCell">0,32g</td>
+                <td class="table__tableCell">6%</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer class="footer">© Copyright Filip Pitura</footer>
+
+</body>
+
+</html>
