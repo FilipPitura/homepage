@@ -1,0 +1,25 @@
+.navigation {
+    background-color: rgb(168, 180, 219);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.navigation__list {
+    list-style-type: none;
+    line-height: 1.7;
+}
+
+.navigation__link {
+    color: rgb(59, 58, 58);
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: rgb(23, 23, 23);
+}
+
+.navigation__link:active {
+    color: rgb(156, 86, 86);
+}

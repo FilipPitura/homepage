@@ -6,16 +6,16 @@
     text-align: center;
 }
 
-.darkBackground {
-    background-color: rgb(37, 33, 33);
-}
-
 html {
     box-sizing: border-box;
 }
 
 *, ::after, ::before {
     box-sizing: inherit;
+}
+
+.darkBackground {
+    background-color: rgb(37, 33, 33);
 }
 
 .button {
@@ -43,94 +43,6 @@ html {
     border-radius: 5px;
     padding: 10px;
     margin-top: 30px;
-}
-
-.navigation {
-    background-color: rgb(168, 180, 219);
-    border: 2px solid black;
-    border-radius: 5px;
-    margin-top: 30px;
-    padding: 10px;
-}
-
-.navigation__list {
-    list-style-type: none;
-    line-height: 1.7;
-}
-
-.navigation__link {
-    color: rgb(59, 58, 58);
-    text-decoration: none;
-}
-
-.navigation__link:hover {
-    color: rgb(23, 23, 23);
-}
-
-.navigation__link:active {
-    color: rgb(156, 86, 86);
-}
-
-.section {
-    color: rgb(32, 35, 32);
-    background-color: rgb(192, 210, 224);
-    line-height: 1.5;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin-top: 30px;
-    padding: 10px;
-}
-
-.section__subHeader {
-    color: rgb(32, 35, 32);
-    background-color: rgb(192, 210, 224);
-    border: 3px solid rgb(59, 56, 56);
-    border-radius: 5px;
-    font-weight: 500;
-    text-align: center;
-}
-
-.section__subHeader--special {
-    font-weight: 700;
-}
-
-.section__paragraph {
-    color: rgb(32, 35, 32);
-    background-color: rgb(192, 210, 224);
-    line-height: 1.5;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin-top: 30px;
-    padding: 10px;
-}
-
-.table {
-    border-collapse: collapse;
-    border: 3px solid black;
-    width: 100%;
-}
-
-.table__caption {
-    background-color: aqua;
-    font-size: 20px;
-    font-weight: 700;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin: 30px;
-    padding: 10px;
-}
-
-.table__tableCell {
-    background-color: rgb(235, 239, 241);
-    border: 1px solid rgb(100, 99, 99);
-    padding: 15px;
-    text-align: center;
-    padding: 10px;
-}
-
-.table__tableHeader {
-    background-color: rgb(150, 161, 235);
-    color: rgb(32, 35, 32);
 }
 
 .footer {
