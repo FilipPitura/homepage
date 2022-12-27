@@ -1,11 +1,23 @@
-console.log("cześć");
+{
+    const Welcome = () => {
+        console.log("cześć");
+    }
 
-let buttonElement = document.querySelector(".js-button");
-let body = document.body
-let themeName = document.querySelector(".js-themeName")
+    Welcome();
 
-buttonElement.addEventListener("click", () => {
-    body.classList.toggle("darkBackground")
+    const BackgroundToggle = () => {
+        const themeName = document.querySelector(".js-themeName");
+        const body = document.body
 
-    themeName.innerText = body.classList.contains("darkBackground") ? "Wyłącz" : "Włącz";
-});
+        body.classList.toggle("darkBackground")
+        themeName.innerText = body.classList.contains("darkBackground") ? "Wyłącz" : "Włącz";
+    }
+
+    const init = () => {
+        const buttonElement = document.querySelector(".js-button");
+        
+        buttonElement.addEventListener("click", () => BackgroundToggle());
+    }
+
+    init();
+}
