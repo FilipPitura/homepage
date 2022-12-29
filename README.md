@@ -5,3 +5,7 @@ This is my first website which is **about me**. Here you can find informations l
 ## Link to my website:
 
 [homepage](https://filippitura.github.io/homepage/)
+
+### Technologies I used:
+- BEM
+- JavaScript
