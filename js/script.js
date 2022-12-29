@@ -3,20 +3,20 @@
         console.log("cześć");
     }
 
-    Welcome();
-
-    const BackgroundToggle = () => {
+    const toggleBackground = () => {
         const themeName = document.querySelector(".js-themeName");
         const body = document.body
 
-        body.classList.toggle("darkBackground")
-        themeName.innerText = body.classList.contains("darkBackground") ? "Wyłącz" : "Włącz";
+        body.classList.toggle("body--darkBackground")
+        themeName.innerText = body.classList.contains("body--darkBackground") ? "Wyłącz" : "Włącz";
     }
 
     const init = () => {
         const buttonElement = document.querySelector(".js-button");
         
-        buttonElement.addEventListener("click", () => BackgroundToggle());
+        buttonElement.addEventListener("click", toggleBackground);
+
+        Welcome();
     }
 
     init();
